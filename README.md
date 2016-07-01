@@ -8,9 +8,9 @@ Creators of 360 movies should have possibility to define timeline of camera dire
 When users do not manipulate 360 view, the view should change automatically. By its creator definitions.
 
 1. I create HTML5 video player for 360 videos.
-2. I use free three.js library to render 360 (panoramic) viewer.  https://github.com/mrdoob/three.js 
-This is only one of possible solutions in three.js at this moment I do not care which solution is the best.
-3. I use Javascript to read external txt file where I define timeline to control point of view. 
+2. I use free three.js library to render 360 (panoramic) viewer:  https://github.com/mrdoob/three.js 
+This is only one of possible solutions in three.js At this moment I do not care which solution is the best.
+3. I use Javascript to read external txt file where I define timeline to control point of view (camera). 
 This is done line by line in format: video running time in seconds [space] direction 0-360 [space] elevation +/-90
 
 Changing both direction and elevation should do smoothly by path calculated from current point of view.
